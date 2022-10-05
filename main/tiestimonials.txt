@@ -1,0 +1,118 @@
+<div style="position: relative;">
+           <section class="testimonials">
+                <div class="test_menu">
+                    <div>
+                        <h1 class="test_menu_h">Testimonials</h1>
+                    </div>
+                    <div class="comment_menu">
+                        <div class="testimonial">
+                            <div style="display: flex;">
+                                <img class="icon_log" src="../assets/icons/Vector.png" alt="person">
+                                <div class="block_nick">
+                                    <h6 class="nick_name">Michael John</h6>
+                                    <div style="display: flex; margin: 0;">
+                                        <p class="country">Local Austria</p>
+                                        <p class="time">-</p>
+                                        <p class="time">Today</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text_test">
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                ways to
+                                instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                Online zoo
+                                is one jf the ways to instill a love for animals.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                ways to
+                                instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                Online zoo
+                                is one jf the ways to instill a love for animals.
+                            </p>
+                        </div>
+                        <div class="testimonial">
+                            <div style="display: flex;">
+                                <img class="icon_log" src="../assets/icons/Ellipse 2.png" alt="person">
+                                <div class="block_nick">
+                                    <h6 class="nick_name">Oskar Samborsky</h6>
+                                    <div style="display: flex; margin: 0;">
+                                        <p class="country">Local Austria</p>
+                                        <p class="time">-</p>
+                                        <p class="time">Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text_test">
+                                Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted
+                                very much
+                                ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo
+                                I’ve met. My
+                                son delighted very much ljves to watch gouillas.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                ways to
+                                instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                Online zoo
+                                is one jf the ways to instill a love for animals.
+                            </p>
+                        </div>
+                        <div class="testimonial">
+                            <div style="display: flex;">
+                                <img class="icon_log" src="../assets/icons/Ellipse 2 (1).png" alt="person">
+                                <div class="block_nick">
+                                    <h6 class="nick_name">Fredericka Michelin</h6>
+                                    <div style="display: flex; margin: 0;">
+                                        <p class="country">Local Austria</p>
+                                        <p class="time">-</p>
+                                        <p class="time">Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text_test">
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                ways to
+                                instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                Online zoo
+                                is one jf the ways to instill a love for animals.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                ways to
+                                instill a love for animals.The best online zoo I’ve met.
+                                The best online zoo I’ve met. My son delighted very much ljves to
+                            </p>
+                        </div>
+                        <div class="testimonial">
+                            <div style="display: flex;">
+                                <img class="icon_log" src="../assets/icons/Ellipse 2 (2).png" alt="person">
+                                <div class="block_nick">
+                                    <h6 class="nick_name">Mila Riksha</h6>
+                                    <div style="display: flex; margin: 0;">
+                                        <p class="country">Local Austria</p>
+                                        <p class="time">-</p>
+                                        <p class="time">Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text_test">
+                                My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
+                                animals.The best
+                                online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
+                                instill a love
+                                for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is
+                                one jf the
+                                ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch
+                                gouillas.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf
+                            </p>
+                        </div>
+                    </div>
+                    <div class="line_scrol">
+                        <div class="line1">
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                    <form class="button_place3">
+                        <input class="button2" type="button" value="donate for volunteers">
+                    </form>
+                </div>
+                    <img class="sheet" src="../assets/images/leav_foto.png" alt="sheet">
+           </section> 
+        </div>

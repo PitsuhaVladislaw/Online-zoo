@@ -1,0 +1,59 @@
+<section class="fon">
+                <div class="friend_square">
+                    <h1 class="h_friend">Pick and feed a friend</h1>
+                    <div style="margin-left: 99px;">
+                        <p class="phr_friend1">
+                            We know the animals bring you joy, and in these extraordinary times, we’re glad.
+                        </p>
+                        <p class="phr_friend2">
+                            During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world
+                            find joy in PetStory.
+                        </p>
+                        <div style="width: 863px; position: relative;">
+                            <p class="phr_friend3">
+                                Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a
+                                gift to our Emergency Support Fund .
+                            </p>
+                            <div class="line_text"></div>
+                        </div>
+                    </div>
+                    <div style="margin: 60px 198px">
+                        <h3 class="h_work">How it works</h3>
+                        <div class="work_menu">
+                            <div class="card_work">
+                                <div class="picture_card">
+                                <img style="margin: 54px 30px;" src="../assets/icons/pay.png" alt="picture"> 
+                                </div>
+                                <p class="text_card">
+                                    Pay with card
+                                </p>
+                            </div>
+                            <div style="margin-top: 61px;">
+                                <img src="../assets/icons/arrow.png" alt="arrow">
+                            </div>
+                            <div class="card_work">
+                                <div class="picture_card">
+                                    <img style="margin: 38px 41px 35px 41px;" src="../assets/icons/zoo.png" alt="picture">
+                                </div>
+                                <p class="text_card">
+                                    Payment goes to the zoo
+                                </p>
+                            </div>
+                            <div style="margin-top: 61px;">
+                                <img src="../assets/icons/arrow.png" alt="arrow">
+                            </div>
+                            <div class="card_work">
+                                <div class="picture_card">
+                                    <img style="margin: 48px 22px;" src="../assets/icons/monkey.png" alt="picture">
+                                </div>
+                                <p class="text_card">
+                                    Your favourite animal gets delicious dish
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="button_place4">
+                        <input style="border-radius: 25px;" class="button2" type="button" value="Feed a friend now">
+                    </form>
+                </div>
+            </section>

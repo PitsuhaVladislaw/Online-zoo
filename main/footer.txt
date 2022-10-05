@@ -1,0 +1,77 @@
+
+    <footer class="footer">
+        <section class="networks">
+            <div style="position: absolute; top: 41px; left: 220px;" class="logo_footer">
+                <div class="rectangle">
+                    <h5 class="text_rectangle">
+                        PetStory online
+                    </h5>
+                </div>
+                <div class="club">
+                    <img class="club" src="../assets/icons/bamboo.png" alt="club">
+                </div>
+            </div>
+            <form class="button_place2">
+                <input class="button2" type="button" value="donate for volunteers">
+            </form>
+            <article class="list_net">
+                <div class="elem_list">
+                    <div class="circle_elem">
+                        <img style="margin: 5px 9px;" class="icon_elem" src="../assets/icons/Fill 211.png" alt="icon">
+                    </div>
+                    <h6 class="h_elem">Facebook</h6>
+                </div>
+                <div class="elem_list">
+                    <div class="circle_elem">
+                        <img style="margin: 6px 5px;" class="icon_elem" src="../assets/icons/Fill 172.png" alt="icon">
+                    </div>
+                    <h6 class="h_elem">Twitter</h6>
+                </div>
+                <div class="elem_list">
+                    <div class="circle_elem">
+                        <img style="margin: 5px;" class="icon_elem" src="../assets/icons/Fill 166.png" alt="icon">
+                    </div>
+                    <h6 class="h_elem">Instagram</h6>
+                </div>
+                <div class="elem_list">
+                    <div class="circle_elem">
+                        <img style="margin: 6px 4px;" class="icon_elem" src="../assets/icons/Fill 213.png" alt="icon">
+                    </div>
+                    <h6 class="h_elem">YouTube</h6>
+                </div>
+            </article>
+            <menu style="width: 450px; position: absolute; bottom: 50px; left: 567px;" class="min_menu">
+                <div style="margin: 0;" class="block">
+                    <h5 style="color: orange;" class="header_menu">About</h5>
+                </div>
+                <div class="block">
+                    <h5 class="header_menu">Map</h5>
+                </div>
+                <div class="block">
+                    <h5 class="header_menu">Zoos</h5>
+                </div>
+                <div class="block">
+                    <h5 class="header_menu">Contact us</h5>
+                </div>
+            </menu>
+            <div class="mail_place">
+                <div>
+                    <h3 class="h_mail">Subscribe to our news</h3>
+                </div>
+                <div style="display: flex;">
+                    <div>
+                        <p>
+                            <input name="email" class="txt_ml_place text_mail" placeholder="Enter your email">
+                        </p>
+                    </div>
+                    <form style="height: 45px; margin: 18px 10px;">
+                        <input class="send_btn_activ" type="button" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div class="author">
+                <h2 class="author_h"> Designed by Alisa Samborskaya </h2>
+                <h2 class="author_h"> ©RSSchool & ©Yem Digital 2021 </h2>
+            </div>
+        </section>
+    </footer>
