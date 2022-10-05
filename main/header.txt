@@ -1,0 +1,53 @@
+ <section class="section1_ft">
+                <header class="header">
+                    <div class="menu">
+                        <div class="logo_footer">
+                            <div class="rectangle">
+                                <h5 class="text_rectangle">
+                                    PetStory online
+                                </h5>
+                            </div>
+                            <div class="club">
+                                <img class="club" src="../assets/icons/bamboo.png" alt="club">
+                            </div>
+                        </div>
+                        <menu class="min_menu">
+                            <div class="block">
+                                <h5 style="color: orange;" class="header_menu">About</h5>
+                            </div>
+                            <div class="block">
+                                <h5 class="header_menu">Map</h5>
+                            </div>
+                            <div class="block">
+                                <h5 class="header_menu">Zoos</h5>
+                            </div>
+                            <div class="block">
+                                <h5 class="header_menu">Donate</h5>
+                            </div>
+                            <div class="block">
+                                <h5 class="header_menu">Contact us</h5>
+                            </div>
+                        </menu>
+                    </div>
+                    <div class="block_author">
+                        <h5 class="header_menu">Designed by ©</h5>
+                    </div>
+                </header>
+                <article style="position: relative;">
+                    <div class="logo">
+                        <div>
+                            <img src="../assets/images/Ellipse 6.png" alt="Circle">
+                        </div>
+                        <div class="circle_text">
+                            <p style="margin: -20px;" class="circle_phrase mrgn-tp">Watch</p>
+                            <p class="circle_phrase">your</p>
+                            <p class="circle_phrase word_phrase">favorite</p>
+                            <p class="circle_phrase">animal</p>
+                            <p class="circle_phrase">online</p>
+                        </div>
+                        <form class="button_place1">
+                            <input class="button1" type="button" value="wath online">
+                        </form>
+                    </div>
+                </article>
+            </section>
