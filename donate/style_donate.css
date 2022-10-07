@@ -1,7 +1,11 @@
 @media screen and (min-width: 1280px) {
+    .display_none_bm {
+        display: none;
+    }
+
     .header {
         position: relative;
-        height: 470px;
+        height: auto;
         width: auto;
     }
 
@@ -28,6 +32,14 @@
         margin: 0 auto;
     }
 
+        .logo_header {
+        position: relative;
+        width: 82px;
+        border-radius: 2px;
+        height: 52px;
+        border: 1px solid #FFFFFF;
+    }
+
     .logo_footer {
         position: relative;
         width: 82px;
@@ -36,13 +48,19 @@
         border: 1px solid #FFFFFF;
     }
 
-    .rectangle {
+    .rectangle_header {
         height: 44.91px;
         width: 72.49px;
         margin: 3.5px 4.5px;
     }
 
-    .text_rectangle {
+    .rectangle_footer {
+        height: 44.91px;
+        width: 72.49px;
+        margin: 3.5px 4.5px;
+    }
+
+    .text_rectangle_header {
         text-align: center;
         font-size: 19.01px;
         font-family: Roboto;
@@ -51,7 +69,24 @@
         margin: 0;
     }
 
-    .club {
+    .text_rectangle_footer {
+        text-align: center;
+        font-size: 19.01px;
+        font-family: Roboto;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .club_header {
+        position: absolute;
+        width: 10.03px;
+        height: 14.98px;
+        top: 14px;
+        left: 7px;
+    }
+
+    .club_footer {
         position: absolute;
         width: 10.03px;
         height: 14.98px;
@@ -257,7 +292,7 @@
 
     .box_amount_text {
         display: grid; 
-        grid-template-columns: 87px 122px 116px 115px 118px 116px 0px 0px;
+        grid-template-columns: 107px 135px 148px 145px 130px 147px 137px 0px;
     }
 
     .amount_text {
@@ -308,7 +343,7 @@
         height: 54px;
         width: 268px;
         padding-left: 9px;
-        font-size: 400;
+        font-size: 16px;
         font-family: Roboto;
         font-weight: 400;
         line-height: 22.4px;
@@ -392,6 +427,7 @@
     }
 
     .menu_foot {
+        display: flex;
         width: 450px;
         position: absolute;
         bottom: 50px;
@@ -495,6 +531,11 @@
         color: green;
         text-decoration: underline;
     }
+
+    .logo_place {
+        position: relative;
+        top: 41px;
+    }
 }
 
 @media (min-width: 999px) and (max-width: 1280px) {
@@ -502,10 +543,19 @@
         display: none;
     }
 
+    .display_none_bm {
+        display: none;
+    }
+
     .header {
         position: relative;
         height: 470px;
         width: auto;
+    }
+
+    .logo_place {
+        position: relative;
+        top: 41px;
     }
 
     .img_panda {
@@ -531,6 +581,14 @@
         margin: 0 auto;
     }
 
+    .logo_header {
+        position: relative;
+        width: 82px;
+        border-radius: 2px;
+        height: 52px;
+        border: 1px solid #FFFFFF;
+    }
+
     .logo_footer {
         position: relative;
         width: 82px;
@@ -539,13 +597,19 @@
         border: 1px solid #FFFFFF;
     }
 
-    .rectangle {
+    .rectangle_header {
         height: 44.91px;
         width: 72.49px;
         margin: 3.5px 4.5px;
     }
 
-    .text_rectangle {
+    .rectangle_footer {
+        height: 44.91px;
+        width: 72.49px;
+        margin: 3.5px 4.5px;
+    }
+
+    .text_rectangle_header {
         text-align: center;
         font-size: 19.01px;
         font-family: Roboto;
@@ -554,7 +618,24 @@
         margin: 0;
     }
 
-    .club {
+    .text_rectangle_footer {
+        text-align: center;
+        font-size: 19.01px;
+        font-family: Roboto;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .club_header {
+        position: absolute;
+        width: 10.03px;
+        height: 14.98px;
+        top: 14px;
+        left: 7px;
+    }
+
+    .club_footer {
         position: absolute;
         width: 10.03px;
         height: 14.98px;
@@ -815,7 +896,7 @@
         height: 54px;
         width: 268px;
         padding-left: 9px;
-        font-size: 400;
+        font-size: 16px;
         font-family: Roboto;
         font-weight: 400;
         line-height: 22.4px;
@@ -901,6 +982,7 @@
     }
 
     .menu_foot {
+        display: flex;
         width: 450px;
         position: absolute;
         bottom: 50px;
@@ -1006,19 +1088,27 @@
     }
 }
 
-@media (min-width: 640px) and (max-width: 1000px) {
+@media (min-width: 640px) and (max-width: 999px) {
+    * {
+        outline: 1px solid green !important;
+    }
+
     .display_n {
+        display: none;
+    }
+
+    .display_n640 {
         display: none;
     }
 
     .header {
         position: relative;
-        height: 470px;
+        height: auto;
         width: auto;
     }
 
     .img_panda {
-        height: 390px;
+        height: 335px;
         width: auto;
         background: url(../assets/images/panda_bg.png) center no-repeat;
         background-size: cover;
@@ -1029,15 +1119,35 @@
         width: auto;
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 34px;
         background-color: #000000;
     }
 
     .menu {
         position: relative;
-        top: 14px;
         display: flex;
+        width: 600px;
         margin: 0 auto;
+    }
+
+    .burger_menu {
+        position: absolute;
+        height: auto;
+        top: 9px;
+        right: 0px;
+        width: 18px;
+    }
+
+    .square_bur {
+        height: 2px;
+        width: 18px;
+        background: #FFFFFF;
+        margin-top: 2px;
+    }
+
+    .logo_header {
+        width: 82px;
+        height: 34px;
     }
 
     .logo_footer {
@@ -1048,13 +1158,29 @@
         border: 1px solid #FFFFFF;
     }
 
-    .rectangle {
+    .rectangle_header {
+        height: 34.91px;
+        width: 72.49px;
+        margin: 2.5px 4.5px;
+    }
+
+    .rectangle_footer {
         height: 44.91px;
         width: 72.49px;
         margin: 3.5px 4.5px;
     }
 
-    .text_rectangle {
+    .text_rectangle_header {
+        text-align: center;
+        font-size: 12.29px;
+        font-family: Roboto;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 14.75px;
+        margin: 0;
+    }
+
+    .text_rectangle_footer {
         text-align: center;
         font-size: 19.01px;
         font-family: Roboto;
@@ -1063,7 +1189,15 @@
         margin: 0;
     }
 
-    .club {
+    .club_header {
+        position: absolute;
+        width: 4.54px;
+        height: 9.56px;
+        top: 10px;
+        left: 12.5px;
+    }
+
+    .club_footer {
         position: absolute;
         width: 10.03px;
         height: 14.98px;
@@ -1072,13 +1206,18 @@
     }
 
     .min_menu {
+        display: none;
+        margin: 0;
+    }
+
+    .min_menu640 {
         display: flex;
         margin: 0;
     }
 
     .block {
         height: 52px;
-        margin-left: 48px;
+        margin-left: 36px;
         margin-bottom: 0;
     }
 
@@ -1112,6 +1251,7 @@
 
     .block_author {
         margin-left: 259px;
+        display: none;
     }
 
     .button2{
@@ -1167,10 +1307,10 @@
     }
 
     .h_donate {
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 400;
         font-family: Roboto;
-        line-height: 46.8px;
+        line-height: 28.8px;
         color: #FFFFFF;
         margin: 0;
     }
@@ -1194,12 +1334,12 @@
     }
 
     .width {
-       width: 940px; 
+       width: 600px; 
     }
 
     .block_infa {
-        height: 964px;
-        width: 940px;
+        height: 918px;
+        width: 600px;
         border-radius: 20px;
         background-color: rgba(255, 255, 255, 0.52);
     }
@@ -1207,7 +1347,7 @@
     .block_i { 
         position: relative;
         margin: 0 auto;
-        width: 849px;
+        width: 600px;
         height: 862px;
         top: 20px;
     }
@@ -1233,8 +1373,8 @@
     .panda_block {
         height: 246px;
         display: flex;
-        padding: 0 200px;
-        margin: 60px 0;
+        padding: 0px 15px;
+        margin: 50px 0;
     }
 
     .collection {
@@ -1260,7 +1400,7 @@
     .box_circle_amount {
         display: flex; 
         justify-content: space-between; 
-        width: 810px; 
+        width: 600px; 
         background-color: #404950;
     }
 
@@ -1271,9 +1411,14 @@
         background-color: #FFEE2E;
     }
 
+    .box_amount {
+        position: relative;
+        width: auto;
+    }
+
     .box_amount_text {
         display: grid; 
-        grid-template-columns: 104px 139px 133px 134px 139px 133px 125px 0px;
+        grid-template-columns: 126px 146px 155px 135px 0px 0px 0px 0px;
     }
 
     .amount_text {
@@ -1324,13 +1469,14 @@
         height: 54px;
         width: 268px;
         padding-left: 9px;
-        font-size: 400;
+        font-size: 16px;
         font-family: Roboto;
         font-weight: 400;
         line-height: 22.4px;
         color: #929699;
         border: 1px solid #929699;
         border-radius: 2px;
+        width: 180px;
     }
 
     .under_but_phrase {
@@ -1339,7 +1485,7 @@
         font-weight: 400;
         line-height: 22.4px;
         color: #333B41;
-        margin: 43px auto 0px;
+        margin: 30px auto 0px;
     }
 
     .button3 {
@@ -1404,30 +1550,30 @@
 
     .networks {
         position: relative;
-        width: 940px;
-        height: 443px;
+        width: 600px;
+        height: 306px;
         margin: 0 auto;
     }
 
     .menu_foot {
         width: 450px;
         position: absolute;
-        bottom: 50px;
-        left: 250px;
+        top: 248px;
+        left: -40px;
     }
 
     .list_net {
         position: absolute;
-        bottom: 65px;
-        left: 0px;
-        width: 140px;
+        top: 0px;
+        right: 20px;
+        width: 26px;
     }
 
     .elem_list {
         display: flex;
         height: 26px;
-        width: 111px;
-        margin-top: 10px;
+        width: auto;
+        margin-top: 20px;
     }
 
     .h_elem {
@@ -1437,6 +1583,7 @@
         line-height: 22.4px;
         color: #FFFFFF;
         margin: 2px 0px 0px 12px;
+        display: none;
     }
 
     .h_elem:hover {
@@ -1476,6 +1623,7 @@
         flex-direction: column;
         top: 40px;
         right: 0px;
+        display: none;
     }
 
     .txt_ml_place {
@@ -1497,8 +1645,13 @@
 
     .author {
         position: absolute;
-        bottom: 50px;
-        right: 0px;
+        top: 218px;
+        right: 20px;
+    }
+
+    .logo_place {
+        position: absolute;
+        top: 20px;
     }
 
     .author_h {
