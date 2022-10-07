@@ -7,6 +7,13 @@
         background-size: cover; 
     }
 
+    .img_panda {
+        height: 390px;
+        width: auto;
+        background: url(../assets/images/panda_bg.png) center no-repeat;
+        background-size: cover;
+    }
+
     .header {
         position: relative;
         height: auto;
@@ -36,6 +43,14 @@
         margin: 0 auto;
     }
 
+        .logo_header {
+        position: relative;
+        width: 82px;
+        border-radius: 2px;
+        height: 52px;
+        border: 1px solid #FFFFFF;
+    }
+
     .logo_footer {
         position: relative;
         width: 82px;
@@ -44,13 +59,19 @@
         border: 1px solid #FFFFFF;
     }
 
-    .rectangle {
+    .rectangle_header {
         height: 44.91px;
         width: 72.49px;
         margin: 3.5px 4.5px;
     }
 
-    .text_rectangle {
+    .rectangle_footer {
+        height: 44.91px;
+        width: 72.49px;
+        margin: 3.5px 4.5px;
+    }
+
+    .text_rectangle_header {
         text-align: center;
         font-size: 19.01px;
         font-family: Roboto;
@@ -59,7 +80,24 @@
         margin: 0;
     }
 
-    .club {
+    .text_rectangle_footer {
+        text-align: center;
+        font-size: 19.01px;
+        font-family: Roboto;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .club_header {
+        position: absolute;
+        width: 10.03px;
+        height: 14.98px;
+        top: 14px;
+        left: 7px;
+    }
+
+    .club_footer {
         position: absolute;
         width: 10.03px;
         height: 14.98px;
@@ -606,6 +644,7 @@
     }
 
     .menu_foot {
+        display: flex;
         width: 450px;
         position: absolute;
         bottom: 50px;
@@ -617,6 +656,7 @@
         bottom: 65px;
         left: 0px;
         width: 140px;
+
     }
 
     .elem_list {
@@ -708,5 +748,10 @@
     .author_h:hover {
         color: green;
         text-decoration: underline;
+    }
+
+    .logo_place {
+        position: relative;
+        top: 41px;
     }
 }
