@@ -539,7 +539,7 @@
     }
 }
 
-@media (min-width: 999px) and (max-width: 1280px) {
+@media (min-width: 1000px) and (max-width: 1280px) {
     .display_n {
         display: none;
     }
