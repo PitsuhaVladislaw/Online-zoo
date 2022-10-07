@@ -1,30 +1,46 @@
 @media only screen and (min-width: 1280px) {
     .section1_ft {
         margin: 0 auto;
-        width: 1519px;
-        height: 780px;
-        background-image: url(../assets/images/Giant\ Panda.png);
+        width: auto;
+        height: 700px;
+        background: url(../assets/images/Giant\ Panda.png) no-repeat center;
+        background-size: cover; 
     }
 
     .header {
         position: relative;
+        height: auto;
         width: auto;
+    }
+
+    .img_panda {
+        height: 390px;
+        width: auto;
+        background: url(../assets/images/panda_bg.png) center no-repeat;
+        background-size: cover;
+    }
+
+    .max_menu {
+        position: relative;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
         height: 80px;
-        margin: 0 auto;
         background-color: #000000;
     }
 
     .menu {
-        position: absolute;
-        left: 220px; 
-        display: flex;
+        position: relative;
         top: 14px;
+        display: flex;
+        margin: 0 auto;
     }
 
     .logo_footer {
         position: relative;
         width: 82px;
         border-radius: 2px;
+        height: 52px;
         border: 1px solid #FFFFFF;
     }
 
@@ -90,11 +106,14 @@
         text-decoration: underline;
     }
 
-
     .block_author {
-        position: absolute;
-        right: 220px;
-        top: 15px;
+        margin-left: 438px;
+    }
+
+    .panda_box {
+        position: relative;
+        width: 1600px;
+        margin: 0 auto;
     }
 
     .logo {
@@ -137,7 +156,7 @@
     .button_place2 {
         position: absolute;
         top: 150px;
-        left: 220px;
+        left: 0px;
     }
 
     .button1 {
@@ -274,6 +293,11 @@
         border-radius: 50%;
         margin-top: 404px;
         margin-right: 20px;
+    }
+    .logo_place {
+        position: absolute;
+        top: 41px;
+        left: 0px;
     }
 
     .circle_right {
@@ -576,16 +600,22 @@
 
     .networks {
         position: relative;
-        height: auto;
-        width: auto;
+        width: 1160px;
         height: 443px;
         margin: 0 auto;
+    }
+
+    .menu_foot {
+        width: 450px;
+        position: absolute;
+        bottom: 50px;
+        left: 350px;
     }
 
     .list_net {
         position: absolute;
         bottom: 65px;
-        left: 220px;
+        left: 0px;
         width: 140px;
     }
 
@@ -622,7 +652,7 @@
     }
 
     .circle_elem:hover {
-        background-color: green;
+        background: green;
     }
 
     .h_mail {
@@ -641,7 +671,7 @@
         display: flex;
         flex-direction: column;
         top: 40px;
-        right: 220px;
+        right: 0px;
     }
 
     .txt_ml_place {
@@ -664,7 +694,7 @@
     .author {
         position: absolute;
         bottom: 50px;
-        right: 220px;
+        right: 0px;
     }
 
     .author_h {

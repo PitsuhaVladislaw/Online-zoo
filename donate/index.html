@@ -11,18 +11,18 @@
 </head>
 <body style="margin: 0 auto;">
     <header class="header">
-        <div style="width: 1160px; margin: 0 auto; display: flex; justify-content: space-between;">
+        <div class="max_menu">
             <div class="menu">
-                <div class="logo_footer">
-                    <div class="rectangle">
+                <div class="logo_header">
+                    <div class="rectangle_header">
                         <a style="text-decoration: none;" href="../main/index.html">
-                            <h1 class="text_rectangle">
+                            <h1 class="text_rectangle_header">
                                 PetStory online
                             </h1>
                         </a>
                     </div>
-                    <div class="club">
-                        <img class="club" src="../assets/icons/bamboo.png" alt="club">
+                    <div class="club_header">
+                        <img class="club_header" src="../assets/icons/bamboo.png" alt="club">
                     </div>
                 </div>
                 <menu class="min_menu">
@@ -32,40 +32,41 @@
                         </a>
                     </div>
                     <div class="block">
-                        <h5 class="header_menu">Map</h5>
+                        <a style="text-decoration: none;" href="#">
+                            <h5 class="header_menu">Map</h5>
+                        </a>
                     </div>
                     <div class="block">
-                        <h5 class="header_menu">Zoos</h5>
+                        <a style="text-decoration: none;" href="#">
+                            <h5 class="header_menu">Zoos</h5>
+                        </a>
                     </div>
                     <div class="block">
                         <h5 style="color: orange;" class="header_menu">Donate</h5>
                     </div>
                     <div class="block">
-                        <h5 class="header_menu">Contact us</h5>
+                        <a style="text-decoration: none;" href="#">
+                            <h5 class="header_menu">Contact us</h5>
+                        </a>
                     </div>
                 </menu>
+                <div class="block_author">
+                    <a style="text-decoration: none;"
+                        href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">
+                        <h5 class="header_menu1">Designed by ©</h5>
+                    </a>
+                </div>
+                <div class="display_none_bm burger_menu">
+                    <div class="square_bur"></div>
+                    <div class="square_bur"></div>
+                    <div class="square_bur"></div>
+                </div>
             </div>
-            <div class="block_author">
-                <a style="text-decoration: none;" href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">
-                    <h5 class="header_menu1">Designed by ©</h5>
-                </a>
-            </div>
+        </div>
+        <div style="margin: 0 auto;">
+            <div class="img_panda"></div>
         </div>
     </header>
-    <div style="background-color: white; height: 100px; border: 10px solid black;">
-        <div style="width: 1200px; margin: 0 auto;">
-            <p style="font-size: 20px; text-align: center;">
-                Ребят пока не оценивайте, я пытаюсь все подправить и дополнить то, чего у меня нету, у нас продлили время до пятницы!!!
-                <br>
-                Кому не сложно, отпишите в дискорд, кто до какого чилса сможет проверить, заранее, спасибо!
-                <br>
-                Мой дискорд: Владислав/PitsuhaVladislaw#3246!
-            </p>
-        </div>
-    </div>
-    <div style="height: 370px;">
-        <img style="margin: 0 auto;" src="../assets/images/panda_bg.png" alt="panda">
-    </div>
     <main>
         <section class="fon_donate">
             <div class="block_donate">
@@ -91,7 +92,8 @@
                 <div class="block_infa">
                     <div class="block_i">
                         <h1 class="h_help">Pick and feed a friend</h1>
-                        <p class="text_help">We know the animals bring you joy, and in these extraordinary times, we’re glad.
+                        <p class="text_help">We know the animals bring you joy, and in these extraordinary times, we’re
+                            glad.
                         </p>
                         <div class="panda_block">
                             <div class="collection">
@@ -99,9 +101,9 @@
                                 <p class="phrase_amount">Panda diet for the day.</p>
                             </div>
                             <img class="multiply" src="../assets/icons/x_icon.png" alt="multiply">
-                            <img src="../assets/icons/animals-widget.png" alt="panda">
+                            <img class="img_amount" src="../assets/icons/animals-widget.png" alt="panda">
                         </div>
-                        <div>
+                        <div class="box_amount">
                             <p class="flex-container_text">Amount</p>
                             <div class="box_circle_amount">
                                 <div class="circle_amount"></div>
@@ -111,14 +113,14 @@
                                 </div>
                                 <div class="circle_amount"></div>
                                 <div class="circle_amount"></div>
-                                <div class="circle_amount"></div>
-                                <div class="circle_amount"></div>
-                                <div class="circle_amount"></div>
+                                <div class="display_n640 circle_amount"></div>
+                                <div class="display_n640 circle_amount"></div>
+                                <div class="display_n circle_amount"></div>
                             </div>
                             <div class="box_amount_text">
-                                <p class="display_none amount_text">$5000</p>
-                                <p class="amount_text">$2000</p>
-                                <p style="color: #FE9013;" class="amount_text">$1000</p>
+                                <p class="display_n amount_text">$5000</p>
+                                <p class="display_n640 amount_text">$2000</p>
+                                <p class="display_n640 amount_text">$1000</p>
                                 <p class="amount_text">$500</p>
                                 <p class="amount_text">$250</p>
                                 <p class="amount_text">$100</p>
@@ -128,7 +130,8 @@
                         </div>
                         <div style="display: flex; flex-direction: column;">
                             <div style=" margin: 0 auto; margin-top: 59;">
-                                    <input type="number" name="amount" class="txt_menu_don" placeholder="Another amount                                                   $">
+                                <input type="number" name="amount" class="txt_menu_don"
+                                    placeholder="Another amount                                                   $">
                             </div>
                             <div class="radio">
                                 <div class="radio1">
@@ -158,18 +161,21 @@
     </main>
     <footer class="footer">
         <section class="networks">
-            <div style="position: absolute; top: 41px;" class="logo_footer">
-                <div class="rectangle">
-                    <a style="text-decoration: none;" href="../main/index.html"><h5 class="text_rectangle">
-                        PetStory online
-                    </h5></a>
+            <div class="logo_place logo_footer">
+                <div class="rectangle_footer">
+                    <a style="text-decoration: none;" href="../main/index.html">
+                        <h5 class="text_rectangle_footer">
+                            PetStory online
+                        </h5>
+                    </a>
                 </div>
-                <div class="club">
-                    <img class="club" src="../assets/icons/bamboo.png" alt="club">
+                <div class="club_footer">
+                    <img class="club_footer" src="../assets/icons/bamboo.png" alt="club">
                 </div>
             </div>
             <form class="button_place2">
-                <a style="text-decoration: none;" href="./index.html"><input class="button2" type="button" value="donate for volunteers"></a>
+                <a style="text-decoration: none;" href="./index.html"><input class="button2" type="button"
+                        value="donate for volunteers"></a>
             </form>
             <article class="list_net">
                 <div class="elem_list">
@@ -197,9 +203,11 @@
                     <h6 class="h_elem">YouTube</h6>
                 </div>
             </article>
-            <menu class="menu_foot min_menu">
+            <menu class="menu_foot min_menu640">
                 <div style="margin: 0;" class="block">
-                    <a style="text-decoration: none;" href="../main/index.html"><h5 class="header_menu">About</h5></a>
+                    <a style="text-decoration: none;" href="../main/index.html">
+                        <h5 class="header_menu">About</h5>
+                    </a>
                 </div>
                 <div class="block">
                     <h5 class="header_menu">Map</h5>
@@ -227,8 +235,12 @@
                 </div>
             </div>
             <div class="author">
-                <a style="text-decoration: none;" href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"></a><h2 class="author_h"> Designed by Alisa Samborskaya </h2>
-                <a style="text-decoration: none;" href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"></a><h2 class="author_h"> ©RSSchool & ©Yem Digital 2021 </h2>
+                <a style="text-decoration: none;"
+                    href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"></a>
+                <h2 class="author_h"> Designed by Alisa Samborskaya </h2>
+                <a style="text-decoration: none;"
+                    href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"></a>
+                <h2 class="author_h"> ©RSSchool & ©Yem Digital 2021 </h2>
             </div>
         </section>
     </footer>
