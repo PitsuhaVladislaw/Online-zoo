@@ -1,4 +1,4 @@
-# pitsuhavladislaw-JSFE2022Q3
+# pitsuhavladislaw
 
 ### [**Online zoo task**](/Online-zoo/main/index.html)
 Private repository for @pitsuhavladislaw
